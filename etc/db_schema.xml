@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework/Setup/DeclarativeSchema.xsd">
+    <table name="sales_order_address" resource="sales">
+        <column name="delivery_instructions" xsi:type="varchar" nullable="true" length="255"/>
+    </table>
+</schema>
